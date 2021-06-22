@@ -1,0 +1,29 @@
+{
+	"name": "nodesite-express",
+	"description": "Express-like wrapper for nodesite.eu-local",
+	"version": "0.0.0-1",
+	"main": "lib/index.js",
+	"bin": {
+		"nodesite-express": "lib/cli.js"
+	},
+	"author": "Prokop Schield",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"@types/node": ">=14"
+	},
+	"keywords": [],
+	"dependencies": {
+		"nodesite.eu-local": "^1.2.0"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prokopschield/nodesite-express.git"
+	},
+	"bugs": {
+		"url": "https://github.com/prokopschield/nodesite-express/issues"
+	},
+	"homepage": "https://github.com/prokopschield/nodesite-express#readme"
+}
